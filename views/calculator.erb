@@ -1,0 +1,12 @@
+Alright <%= userfirstname %> pick your math
+<form method = "post" action = "/radio">
+<input type = "hidden" name = "firstname" value = <%= userfirstname %> >
+<input type = "hidden" name = "lastname" value = <%= userlastname %> >
+<input type = 'number' min = '1' max = '100' name = 'num1'>
+<input type = "number" min = "1" max = "100" name = "num2">
+<input type = "radio" name = "group" value = "addition"> addition
+<input type = "radio" name = "group" value = "subtraction"> subtraction
+<input type = "radio" name = "group" value = "division"> division
+<input type = "radio" name = "group" value = "multiple"> multiple
+<input type = "submit">
+</form>
