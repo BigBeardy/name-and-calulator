@@ -1,11 +1,11 @@
 def math(group,num1,num2)
-	if group == "addition"
+	if group == "plus"
     answer = num1.to_f + num2.to_f
-   elsif group == "subtraction"
+   elsif group == "minus"
    answer = num1.to_f - num2.to_f
-   elsif group == "division"
+   elsif group == "divided_by"
     answer = num1.to_f / num2.to_f 
-   else group == "multiply"
+   elsif group == "times"
    answer = num1.to_f * num2.to_f 
    	 end
    answer.to_s

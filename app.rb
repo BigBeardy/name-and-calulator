@@ -51,7 +51,7 @@ usernumber2 = params[:num2]
 answer = params[:answer]
 group = params[:group]
 answer = math(group,usernumber1,usernumber2)
-redirect '/results?firstname=' + userfirstname + '&lastname=' + userlastname + '&num1=' + usernumber1 + '&num2=' + usernumber2 + '&group=' + group = '&answer=' + answer
+redirect '/results?firstname=' + userfirstname + '&lastname=' + userlastname + '&num1=' + usernumber1 + '&num2=' + usernumber2 + '&group=' + group + '&answer=' + answer
 end
 
 get '/results' do 
